@@ -26,10 +26,11 @@ body {
 .menu__title {
 }
 .content {
+    display: flex;
     margin-top: 15px;
 }
 .aside {
-    float: left;
+    
 }
 .aside__item {
     margin-bottom: 15px;
@@ -64,12 +65,12 @@ body {
 .main-content {
     margin: 0 15px;
 
-    width: 60%;
+    width: 100%;
     height: 500px;
 
     background-color: #B65B80;
 
-    float: left;
+    
 }
 .main-content__title {
     margin-bottom: 15px;
@@ -94,6 +95,7 @@ body {
     background-color: #2A4F6E;
 }
 .footer__content {
+    display: flex;
     padding-bottom: 25px;
     border-bottom: 1px solid #fff;
 }
