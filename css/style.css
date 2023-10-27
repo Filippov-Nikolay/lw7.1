@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 15px;
+
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.header {
+    padding: 50px;
+
+    background-color: #923158;
+}
+.header__title {
+}
+.menu {
+    margin-top: 15px;
+    padding: 10px 50px;
+
+    background-color: #6E1237;
+}
+.menu__title {
+}
+.content {
+    margin-top: 15px;
+}
+.aside {
+    float: left;
+}
+.aside__item {
+    margin-bottom: 15px;
+
+    width: 350px;
+    height: 100px;
+
+    background-color: #B65B80;
+}
+.aside:last-child .aside__item {
+    width: 215px;
+    height: 350px;
+
+    writing-mode: vertical-lr; /*устанавливает горизонтальное или вертикальное положение текста также как и направление блока*/
+    text-orientation: upright; /*устанавливает ориентацию текстовых символов в строке и применяется только к вертикальному тексту*/
+}
+.aside:last-child .aside__item p {
+    margin-left: 85px;
+}
+.aside .aside__item:nth-child(2) {
+    height: 180px;
+}
+.aside__item p {
+    padding-top: 35px;
+    padding-left: 45px;
+
+    font-weight: bold;
+}
+.main-content__wrapper {
+    margin: 55px;
+}
+.main-content {
+    margin: 0 15px;
+
+    width: 60%;
+    height: 500px;
+
+    background-color: #B65B80;
+
+    float: left;
+}
+.main-content__title {
+    margin-bottom: 15px;
+}
+.section {
+    margin-bottom: 15px;
+    padding: 25px 65px;
+
+    height: 100px;
+
+    background-color: #DB92AF;
+}
+.section__title {
+}
+.clear {
+    clear: both;
+}
+.footer {
+    margin-top: 15px;
+    padding: 50px;
+
+    background-color: #2A4F6E;
+}
+.footer__content {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #fff;
+}
+.footer__content ul {
+    list-style: none;
+    float: left;
+}
+.footer__content ul:first-child {
+    margin-left: 100px;
+}
+.footer__content ul:not(:last-child) {
+    margin-right: 250px;
+}
+.footer__content li:not(:last-child) {
+    margin-bottom: 10px;
+}
+.footer__content a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer__content a:hover {
+    text-decoration: underline;
+}
+.social img {
+    width: 40px;
+    border-radius: 10px;
+    filter: grayscale(1);
+
+    transition: all .5s;
+}
+.social a:hover img {
+    filter: grayscale(0);
+}
+.social li {
+    display: inline;
+}
+.social li:not(:last-child) {
+    margin-right: 15px;
+}
+.copyright {
+    text-transform: capitalize;
+    margin-top: 30px;
+    text-align: center;
+}
